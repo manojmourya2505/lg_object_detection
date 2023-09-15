@@ -17,6 +17,7 @@ class AppPermissions(private val activity: Activity) {
         ) {
             return false
         }
+
         return true
     }
 }
