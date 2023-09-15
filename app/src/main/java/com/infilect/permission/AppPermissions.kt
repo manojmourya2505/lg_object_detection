@@ -15,6 +15,7 @@ class AppPermissions(private val activity: Activity) {
                 android.Manifest.permission.CAMERA
             ) != PackageManager.PERMISSION_GRANTED
         ) {
+
             return false
         }
         return true
