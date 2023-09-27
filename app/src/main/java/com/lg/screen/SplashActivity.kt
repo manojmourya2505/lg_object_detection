@@ -1,11 +1,11 @@
-package com.infilect.screen
+package com.lg.screen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
-import com.infilect.R
+import com.lg.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

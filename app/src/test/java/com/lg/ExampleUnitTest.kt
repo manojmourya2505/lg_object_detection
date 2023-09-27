@@ -1,4 +1,4 @@
-package com.infilect
+package com.lg
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.infilect.screen
+package com.lg.screen
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -19,9 +19,9 @@ import android.view.Surface
 import android.view.TextureView
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
-import com.infilect.R
-import com.infilect.ml.SsdMobilenetV11Metadata1
-import com.infilect.permission.AppPermissions
+import com.lg.ml.SsdMobilenetV11Metadata1
+import com.lg.R
+import com.lg.permission.AppPermissions
 import org.tensorflow.lite.support.common.FileUtil
 import org.tensorflow.lite.support.image.TensorImage
 
