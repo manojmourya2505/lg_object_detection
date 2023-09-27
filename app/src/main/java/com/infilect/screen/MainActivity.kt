@@ -164,10 +164,10 @@ class MainActivity : AppCompatActivity() {
                 override fun onOpened(camera: CameraDevice) {
                     _cameraDevice = camera
 
-                    var surfaceTexture = _captureTexture.surfaceTexture
-                    var surface = Surface(surfaceTexture)
+                    val surfaceTexture = _captureTexture.surfaceTexture
+                    val surface = Surface(surfaceTexture)
 
-                    var captureRequest =
+                    val captureRequest =
                         _cameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
                     captureRequest.addTarget(surface)
 
